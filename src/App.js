@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Accessories from "./components/Accessories";
+import Bags from "./components/Bags";
+import Categories from "./components/Categories";
+import Fragrances from "./components/Fragrances";
+import Hero from "./components/Hero";
+import Makeup from "./components/Makeup";
+import NormalOils from "./components/NormalOils";
+import SkinCare from "./components/SkinCare";
+import Underwear from "./components/Underwear";
+import Waxes from "./components/Waxes";
+import Layout from "./layout/Layout";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <div className="pb-16">
+        <Categories />
+        <Hero />
+        <SkinCare />
+        <Accessories />
+        <Makeup />
+        <Fragrances />
+        <Bags />
+        <NormalOils />
+        <Underwear />
+        <Waxes />
+      </div>
+    </Layout>
   );
-}
+};
 
 export default App;
