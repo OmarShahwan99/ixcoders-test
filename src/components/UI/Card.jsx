@@ -7,6 +7,7 @@ const Card = (props) => {
         <img
           className="rounded-xl object-cover w-full h-[150px] shadow cursor-pointer"
           src={props.image}
+          alt=""
         />
         <div className="absolute left-1/2 bottom-16 rounded-lg cursor-pointer -translate-x-1/2  shadow-xl p-3 transition duration-300 bg-white hover:bg-[#303030] hover:text-white">
           <svg
