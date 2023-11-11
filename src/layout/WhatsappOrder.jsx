@@ -6,7 +6,7 @@ const WhatsappOrder = () => {
   return ReactDOM.createPortal(
     <div className="fixed z-50 w-[85%] left-1/2 -translate-x-1/2 bottom-5 rounded-full bg-primary-100 hidden md:flex items-center justify-between h-[56px]">
       <a
-        href="#"
+        href="/"
         style={{ background: "linear-gradient(120deg,#169a7a,#22c76b)" }}
         className="text-white flex items-center py-1 px-10 gap-5 rounded-full"
       >

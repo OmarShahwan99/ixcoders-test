@@ -2,7 +2,7 @@ const Title = (props) => {
   return (
     <div className="flex items-center justify-between pb-2 border-b-2 border-b-[#ccc] border-dashed mb-5">
       <h3 className=" text-[#000000d9] font-[700] text-lg">{props.name}</h3>
-      <a className="text-[#777] font-[700] flex gap-2 items-end" href="#">
+      <a className="text-[#777] font-[700] flex gap-2 items-end" href="/">
         <span>عرض المزيد </span>
         <svg
           viewBox="64 64 896 896"

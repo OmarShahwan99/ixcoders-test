@@ -16,23 +16,23 @@ const Header = () => {
                 onClick={() => setIsOpen(true)}
                 className="bg-white rounded-lg py-1 px-2"
               >
-                <img className="w-[14px]" src={List} />
+                <img className="w-[14px]" src={List} alt="" />
               </button>
               <button className="bg-white rounded-lg py-1 px-2">
                 <span className="text-sm font-[800] text-[#303030]">EN</span>
               </button>
             </div>
             <div className="max-w-[140px]">
-              <a href="#">
+              <a href="/">
                 <img className="w-full" src={Logo} alt="Karaz" />
               </a>
             </div>
             <div className="flex gap-2">
-              <a href="#" className="bg-white rounded-lg p-2">
-                <img className="w-[14px]" src={Search} />
+              <a href="/" className="bg-white rounded-lg p-2">
+                <img className="w-[14px]" src={Search} alt="" />
               </a>
-              <a href="#" className="bg-white rounded-lg p-2">
-                <img className="w-[14px]" src={Cart} />
+              <a href="/" className="bg-white rounded-lg p-2">
+                <img className="w-[14px]" src={Cart} alt="" />
               </a>
             </div>
           </nav>
